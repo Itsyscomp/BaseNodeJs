@@ -1,0 +1,35 @@
+{
+  "name": "server-master-node-express",
+  "version": "1.0.0",
+  "description": "Server in nodejs+express",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "ng": "ng"
+  },
+  "keywords": [
+    "Express",
+    "NodeJs",
+    "RestAPI",
+    "MySql",
+    "User"
+  ],
+  "author": "callicoder",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "core-js": "^2.5.1",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "rxjs": "^5.5.6",
+    "express-session": "^1.12.1",
+    "morgan": "^1.6.1",
+    "fs": "0.0.2"
+  },
+  "devDependencies": {
+    "ts-node": "~4.1.0",
+    "tslint": "~5.9.1",
+    "typescript": "~2.5.3"
+  }
+}
